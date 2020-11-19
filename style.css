@@ -204,7 +204,7 @@ h3 {
     color: rgb(166,166,166);
 }
 
-#btnbottom {
+.yellow-button {
     width: 255px;
     height: 52px;
     background-color: #F7B633;
@@ -220,7 +220,7 @@ h3 {
     font-family: 'Avenir Next';
     text-transform: uppercase;
 }
-#btnbottom:hover {
+.yellow-button:hover {
     cursor: pointer;
     opacity: 0.85;
 }
@@ -269,7 +269,7 @@ footer {
     height: 33px;
 }
 #address {
-   width: 170px;
+   width: 200px;
    font-size: 0.75rem;
    line-height: 16px;
 }
@@ -380,19 +380,19 @@ li {
     line-height: 49px;
     text-align: center;
 }
-
+/* 
 #circle-container {
     display: flex;
     justify-content: space-between;
     margin: 122px 165px;
-}
-
+} */
+/* 
 .circle {
     width: 160px;
     height: 160px;
     border: 1px solid #1F3C88;
     border-radius: 50%;
-}
+} */
 #growing {
     width: 100%;
     height: 488px;
@@ -407,16 +407,8 @@ li {
     text-align: center;
     align-items: center;
 }
-#growbtn {
-    width: 255px;
-    height: 52px;
-    background-color: white;
-    color: black;
-    border: 1px solid #F7B633;
-    border-radius: 6px;
-    font-family: 'Avenir Next';
-    font-size: 24px;
-    line-height: 33px;
+#grow-button {
+    position: relative;
     display: block;
     margin: auto;
 }
@@ -440,10 +432,8 @@ h4 {
     font-weight: 400;
 }
 #service-container {
-    width: 80%;
     height: 220px;
-    margin-left: 230px;
-    
+    margin: 0 230px;
     display: flex;
     justify-content: space-between;
     
@@ -454,9 +444,9 @@ h4 {
     text-align: center;
 
 }
-#last-service {
-    margin-right: 210px
-}
+/* #last-service {
+    margin-right: 230px
+} */
 #icon {
     width: 75px;
     height: 75px;
